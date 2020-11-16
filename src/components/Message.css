@@ -1,0 +1,28 @@
+.message {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  width: fit-content;
+}
+.message:first-of-type {
+  margin: 0 1em 1em 1em;
+}
+.message > p {
+  margin-left: 0.5em;
+  padding: 0.55em 0.65em 0.75em 0.65em;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+.message.user {
+  display: block;
+  margin-left: auto;
+}
+.message.user > p {
+  background-color: #29b3cd;
+  color: white;
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .message > p {
+    font-size: 0.85rem;
+  }
+}

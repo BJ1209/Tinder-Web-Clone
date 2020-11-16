@@ -1,0 +1,7 @@
+.chats {
+  overflow-y: scroll;
+}
+.chats > a {
+  text-decoration: none;
+  color: inherit;
+}

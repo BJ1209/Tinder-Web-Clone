@@ -1,0 +1,41 @@
+.chatScreen {
+  padding: 2em;
+}
+.chatScreen__form {
+  display: flex;
+  padding: 0.7em 1em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.chatScreen__input {
+  flex: 1;
+  padding: 0.6em 1em;
+  border: none;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 20px;
+}
+.chatScreen__form > button {
+  background-color: #fff;
+  color: #fe3d71;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .chatScreen {
+    padding: 1.5em 2em;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .chatScreen {
+    padding: 0.5em;
+  }
+}

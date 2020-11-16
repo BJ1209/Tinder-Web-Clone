@@ -1,0 +1,41 @@
+.chat {
+  display: flex;
+  align-items: center;
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #fafafa;
+}
+.chat:hover {
+  background-color: #fafafa;
+}
+.chat__details {
+  flex: 1;
+}
+.chat__image {
+  object-fit: contain;
+  height: 2em;
+  margin-right: 0.7em;
+}
+.chat__details > h2 {
+  font-size: 1.1rem;
+}
+.chat__details > p,
+.chat__timestamp {
+  font-size: 0.9rem;
+  color: gray;
+}
+.chat__timestamp {
+  margin-right: 3em;
+  color: lightgray;
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .chat__details > h2 {
+    font-size: 0.9rem;
+  }
+  .chat__details > p,
+  .chat__timestamp {
+    font-size: 0.75rem;
+  }
+  .chat__timestamp {
+    margin-right: 1em;
+  }
+}

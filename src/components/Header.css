@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f9f9f9;
+  padding: 1em 2.5em;
+  align-items: center;
+}
+.header__logo {
+  object-fit: contain;
+  height: 2.1em;
+  pointer-events: none;
+}
+.header__icon {
+  font-size: 1.6rem;
+  color: rgb(138, 134, 134);
+  cursor: pointer;
+}
